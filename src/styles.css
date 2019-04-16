@@ -1,0 +1,123 @@
+.CreditCard-font {
+  width: 500px;
+  position: relative;
+  border-radius: 7%;
+  color: white;
+}
+.CreditCard-font-img {
+  position: absolute;
+  border-radius: 7%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.creditcard-title {
+  text-align: right;
+  padding-top: 2px;
+  padding-right: 40px;
+}
+
+.creditcard-chip {
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
+.creditcard-number {
+  margin-top: -10px;
+  margin-left: 50px;
+  color: white;
+  position: relative;
+  height: 40px;
+}
+
+.transparent {
+  position: absolute;
+  background-color: yellow;
+  opacity: 0.3;
+  height: 100%;
+  width: 73%;
+}
+
+.creditcard-code {
+  margin-left: 50px;
+  color: white;
+  height: 40px;
+  min-width: 80px;
+}
+
+.creditcard-sec-validation {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin-top: 0px;
+}
+.creditcardvalidation {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.exp2 {
+  font-size: 14px;
+  font-weight: 1;
+}
+.val1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.df {
+  display: flex;
+  margin-left: -30px;
+}
+.dateExp {
+  margin-top: -25px;
+}
+.creditcard-holder-name {
+  margin-top: -20px;
+  margin-left: 50px;
+}
+.fontwight {
+  font-weight: 1;
+  font-size: 10px;
+}
+.mt {
+  margin-top: 5px;
+}
+
+.creditcard-logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.creditcardholname {
+  margin-top: -20px;
+  margin-left: 50px;
+  height: 30px;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+form input {
+  margin: 10px 30px;
+}
